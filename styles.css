@@ -1,0 +1,82 @@
+#newGroceryStoreText {
+  position: absolute;
+  top: 125px;
+
+}
+#addGroceryStore {
+  position: absolute;
+  top: 150px;
+  background-color: #ff8c56:
+
+}
+#viewGroceryStores{
+  position: absolute;
+  top: 175px;
+  background-color: #ff8c56:
+}
+#colorSquare {
+  background: #259428;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  left: 564px;
+}
+#secondColorSquare {
+  background: #3598ec;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  left: 600px;
+  top: 36px;
+}
+#listOfStores {
+  position: absolute;
+  top: 250px;
+  left: 560px;
+
+}
+#mainBody {
+  display: flex;
+  flex-direction: column;
+  background-color: #efefcc;
+}
+#mainHeader {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#top {
+  position: absolute;
+  margin: 0;
+  font-size: 40px;
+}
+#bottom {
+  position: absolute;
+  margin: 0;
+  font-size: 75px;
+  top: 25px;
+}
+#storeInput {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+button, input {
+  width: 25%;
+}
+button {
+  background-color: #ff8c56:
+}
+input {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+}
+#delete {
+  height: 18px;
+  width: 100px;
+}

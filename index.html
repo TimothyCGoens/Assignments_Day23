@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css"></link>
+</head>
+<body id="mainBody">
+
+<div id='mainHeader'>
+  <div id="colorSquare"></div>
+  <div id="secondColorSquare"></div>
+<h1 id="top">Market</h1>
+<h2 id="bottom">Fresh</h2>
+</div>
+
+<div id="storeInput">
+<input id="newGroceryStoreText" placeholder="Name of Grocery Store"></input>
+<button id="addGroceryStore">Add Grocery Store</button>
+<button id="viewGroceryStores">View All Stores</button>
+</div>
+
+<div id="storesList">
+<ul id="listOfStores">
+</ul>
+</div>
+
+
+
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC13Qil5R1zmzHDKi-5vbaen_9UdTqFgto",
+    authDomain: "grocerystoretwo.firebaseapp.com",
+    databaseURL: "https://grocerystoretwo.firebaseio.com",
+    projectId: "grocerystoretwo",
+    storageBucket: "",
+    messagingSenderId: "131102388159"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="user.js"></script>
+<script src="app.js"></script>
+</html>
